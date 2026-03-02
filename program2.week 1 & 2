@@ -1,0 +1,18 @@
+//author Ayesha
+//version 1.0
+// Program to demonstrate variables and data types
+
+public class Program2 {
+    public static void main(String[] args) {
+
+        int age = 17;
+        double height = 5.4;
+        char grade = 'A';
+        String name = "Ayesha";
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Grade: " + grade);
+    }
+}

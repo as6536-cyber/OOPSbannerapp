@@ -1,0 +1,17 @@
+//author Ayesha
+//version 1.0
+// Program to demonstrate type casting
+
+public class Program5 {
+    public static void main(String[] args) {
+
+        int num = 10;
+        double convertedNum = num; // implicit casting
+
+        double value = 9.78;
+        int convertedValue = (int) value; // explicit casting
+
+        System.out.println("Implicit: " + convertedNum);
+        System.out.println("Explicit: " + convertedValue);
+    }
+}

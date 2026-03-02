@@ -1,0 +1,14 @@
+//author Ayesha
+//version 1.0
+// Program to demonstrate operator precedence
+
+public class Program4 {
+    public static void main(String[] args) {
+
+        int result1 = 10 + 5 * 2;
+        int result2 = (10 + 5) * 2;
+
+        System.out.println("Without brackets: " + result1);
+        System.out.println("With brackets: " + result2);
+    }
+}
